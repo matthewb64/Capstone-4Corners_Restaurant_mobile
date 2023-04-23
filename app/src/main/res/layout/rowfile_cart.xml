@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="100dp"
+            android:id="@+id/image"
+            android:layout_height="80dp"
+            android:src="@drawable/butter"/>
+        <LinearLayout
+            android:layout_width="150dp"
+            android:orientation="vertical"
+            android:layout_margin="20dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/name"
+                android:layout_height="wrap_content"
+                android:text="Indian Butter Chicken"
+                android:textColor="#0E2EE1"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/price"
+                android:layout_height="wrap_content"
+                android:text="$456"
+                android:textColor="#E10E20"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+        <Button
+            android:layout_width="50dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/remove"
+            android:layout_height="50dp"
+            android:textSize="25dp"
+            android:textColor="#E10E20"
+            android:text="X"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/bottom_border" />
+
+
+</LinearLayout>

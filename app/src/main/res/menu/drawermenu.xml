@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:icon="@drawable/ic_dashboard" android:id="@+id/dashboard" android:title="Home"/>
+    <item android:icon="@drawable/ic_order" android:id="@+id/orders" android:title="Orders"/>
+    <item android:icon="@drawable/ic_notifications" android:id="@+id/notifications" android:title="Notifications"/>
+    <item android:icon="@drawable/ic_favorite" android:id="@+id/favorite" android:title="Favorites"/>
+    <item android:icon="@drawable/ic_cart" android:id="@+id/cart" android:title="Cart"/>
+    <item android:icon="@drawable/ic_logout" android:id="@+id/logout" android:title="Logout"/>
+</menu>

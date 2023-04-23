@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Names of Item Ordered: "
+        android:textColor="#0D2FEC"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/allItems"
+        android:layout_height="wrap_content"
+        android:text="Broccoli Chicken Casserole, Hungarian Chicken Paprikash, Apple Juice, Indian Butter Chicken"
+        android:textSize="14sp"/>
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Delivery or In-person: "
+        android:textColor="#0D2FEC"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/delivery"
+        android:layout_height="wrap_content"
+        android:text="Delivery"
+        android:textSize="14sp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/addressLayout"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Delivery Address: "
+            android:textColor="#0D2FEC"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/deliveryAddress"
+            android:layout_height="wrap_content"
+            android:text="Delivery Address"
+            android:textSize="14sp"/>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Total Price: "
+        android:textColor="#0D2FEC"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/totalPrice"
+        android:layout_height="wrap_content"
+        android:text="$5678"
+        android:textSize="14sp"/>
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Credit Card Name: "
+        android:textColor="#0D2FEC"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/ccName"
+        android:layout_height="wrap_content"
+        android:text="Visa"
+        android:textSize="14sp"/>
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Credit Card Number: "
+        android:textColor="#0D2FEC"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/ccNumber"
+        android:layout_height="wrap_content"
+        android:text="1234456"
+        android:textSize="14sp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cancel"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:background="#E16A6A"
+        android:textColor="#FFF"
+        android:text="Cancel this Order"
+        android:textStyle="bold"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/bottom_border" />
+
+</LinearLayout>
